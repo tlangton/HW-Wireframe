@@ -2,87 +2,90 @@ body {
 	font: 100% 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	background: #777;
 	font-size: 18px;
-	color: #000;
+	color: #777;
 }
 
-.header {
+header {
 	width: 960px;
 	text-align: center;
-	margin-top: 30;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left:  auto;
 	margin-right:  auto;
 	padding: 40px;
-	color: #333;
 	background: #ebebeb;
-	color: #777;
 }
 
-.nav {
+nav {
 	width: 960px;
 	text-align: center;
-	margin-top: 10;
 	margin-bottom: 20px;
 	margin-left:  auto;
 	margin-right:  auto;
 	padding: 40px;
-	color: #333;
 	background: #ebebeb;
-	color: #777;
 }
 
-.section {
-	float: left;
-	width: 495;
-	text-align: center;
-	margin-top: 10;
-	margin-bottom: 20px;
+.centerDiv
+{
+	width: 1040px;
+	/*background-color: #ccc;*/
+	margin-top:  0 ;
+	margin-bottom:  0 ;
+	height: 300px;
 	margin-left:  auto;
-
-	padding: 40px;
-	color: #333;
-	background: #ebebeb;
-	color: #777;
-
-}
-
-
-.aside {
-
-	float: left;
-	margin-right: 10px;
-	width: 495;
-	text-align: center;
-	margin-top: 10;
-	margin-bottom: 20px;
-
 	margin-right:  auto;
-	padding: 40px;
-	color: #333;
-	background: #ebebeb;
-	color: #777;
-
-}
-
-.article {
 	
-	margin-right: 10px;
 }
+
+section {
+	float: left;
+	width: 495px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 20px 30px 20px 30px;
+	background: #ebebeb;
+}
+
+article {
+	width: 490px;
+	color: #ebebeb;
+	background: #777;
+	padding: 20px;
+	display: block;
+	margin-top: 20px;
+	margin-left: -18px;
+	margin-bottom: -5px;
+}
+
+aside {
+	width: 415px;
+	height: 174px;
+	float: right;
+	margin: 10px 0 20px 0;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 80px;
+	background: #ebebeb;
+}
+
+
 .headers {
-
-	margin-right: 10px;
+	background: #ebebeb;
+	margin: 10px;
+	color: #777;
+	padding: 15px;
 }
 
-.footer {
+footer {
 	clear: both;
 	width: 960px;
 	text-align: center;
-	margin-top: 10;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-left:  auto;
 	margin-right:  auto;
 	padding: 40px;
-	color: #333;
 	background: #ebebeb;
-	color: #777;
 }
