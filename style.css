@@ -78,6 +78,11 @@ aside {
 	padding: 15px;
 }
 
+.bold {
+
+	font-weight: bold;
+}
+
 footer {
 	clear: both;
 	width: 960px;
